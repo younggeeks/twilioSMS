@@ -33,9 +33,9 @@ class Twiliosms {
 
     }
 
-    public function send($message,$to)
+    public function send($to,$message)
     {
-        $send=$this->twilio->account->sendMessage(
+        $send=$this->twilio->account->messages->sendMessage(
             $this->from,$to,$message
         );
 
