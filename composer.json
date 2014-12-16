@@ -1,0 +1,24 @@
+{
+    "name": "younggeeks/twiliosms",
+    "description": "",
+    "authors": [
+        {
+            "name": "Samjunior",
+            "email": "younggeeks101@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "twilio/sdk":"3.12.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Younggeeks\\Twiliosms\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
